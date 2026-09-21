@@ -1,0 +1,7 @@
+*.zip
+train/
+test/
+old/
+best_model_fold*
+venv/
+__pycache__/

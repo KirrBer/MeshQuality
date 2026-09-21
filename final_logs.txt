@@ -1,0 +1,1328 @@
+Загрузка данных...
+Quality pos ratio: 0.1531 -> alpha = 0.7469
+  abstract: pos=0.1332, alpha=0.7668
+  artifacts: pos=0.0485, alpha=0.8515
+  intersection: pos=0.0119, alpha=0.8881
+  lowpoly: pos=0.1235, alpha=0.7765
+  noisy: pos=0.2844, alpha=0.6156
+  open: pos=0.0607, alpha=0.8393
+  partial: pos=0.0419, alpha=0.8581
+  scale: pos=0.0119, alpha=0.8881
+  set: pos=0.1044, alpha=0.7956
+  simple: pos=0.2152, alpha=0.6848
+Device: cuda
+
+======================================================================
+FOLD 1/5 | seed=42 | train=7172 | val=1792
+======================================================================
+  Optimal quality threshold: 0.500, F1: 0.4551
+  abstract: threshold=0.550, F1=0.4708
+  artifacts: threshold=0.500, F1=0.1517
+  intersection: threshold=0.400, F1=0.0800
+  lowpoly: threshold=0.500, F1=0.3699
+  noisy: threshold=0.550, F1=0.6865
+  open: threshold=0.450, F1=0.1770
+  partial: threshold=0.500, F1=0.2971
+  scale: threshold=0.400, F1=0.0847
+  set: threshold=0.500, F1=0.3318
+  simple: threshold=0.550, F1=0.6354
+[stage1] Epoch  1: Train L=0.5746 Val L=0.4405 | Val Q=0.4551 A=0.5011 Final=9.5617
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.500, F1: 0.5066
+  abstract: threshold=0.550, F1=0.5667
+  artifacts: threshold=0.450, F1=0.2100
+  intersection: threshold=0.300, F1=0.0269
+  lowpoly: threshold=0.500, F1=0.4228
+  noisy: threshold=0.500, F1=0.7729
+  open: threshold=0.450, F1=0.1905
+  partial: threshold=0.500, F1=0.3924
+  scale: threshold=0.400, F1=0.1399
+  set: threshold=0.500, F1=0.4289
+  simple: threshold=0.550, F1=0.6872
+[stage1] Epoch  2: Train L=0.4789 Val L=0.3896 | Val Q=0.5066 A=0.5725 Final=10.7905
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.5313
+  abstract: threshold=0.600, F1=0.5938
+  artifacts: threshold=0.500, F1=0.2022
+  intersection: threshold=0.350, F1=0.0395
+  lowpoly: threshold=0.550, F1=0.4377
+  noisy: threshold=0.450, F1=0.7903
+  open: threshold=0.450, F1=0.2262
+  partial: threshold=0.550, F1=0.4636
+  scale: threshold=0.400, F1=0.1653
+  set: threshold=0.500, F1=0.4583
+  simple: threshold=0.550, F1=0.6792
+[stage1] Epoch  3: Train L=0.4423 Val L=0.3803 | Val Q=0.5313 A=0.5889 Final=11.2024
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.5541
+  abstract: threshold=0.600, F1=0.6018
+  artifacts: threshold=0.500, F1=0.2360
+  intersection: threshold=0.350, F1=0.0539
+  lowpoly: threshold=0.550, F1=0.4390
+  noisy: threshold=0.450, F1=0.7902
+  open: threshold=0.450, F1=0.2384
+  partial: threshold=0.550, F1=0.4571
+  scale: threshold=0.450, F1=0.1957
+  set: threshold=0.550, F1=0.4921
+  simple: threshold=0.550, F1=0.6916
+[stage1] Epoch  4: Train L=0.4268 Val L=0.3619 | Val Q=0.5541 A=0.5984 Final=11.5252
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.500, F1: 0.5583
+  abstract: threshold=0.600, F1=0.6068
+  artifacts: threshold=0.500, F1=0.2591
+  intersection: threshold=0.400, F1=0.0964
+  lowpoly: threshold=0.500, F1=0.4527
+  noisy: threshold=0.500, F1=0.7940
+  open: threshold=0.450, F1=0.2632
+  partial: threshold=0.600, F1=0.4615
+  scale: threshold=0.400, F1=0.1243
+  set: threshold=0.500, F1=0.4943
+  simple: threshold=0.550, F1=0.6856
+[stage1] Epoch  5: Train L=0.4138 Val L=0.3528 | Val Q=0.5583 A=0.6028 Final=11.6110
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.5763
+  abstract: threshold=0.550, F1=0.6180
+  artifacts: threshold=0.500, F1=0.2678
+  intersection: threshold=0.400, F1=0.0857
+  lowpoly: threshold=0.500, F1=0.4685
+  noisy: threshold=0.450, F1=0.7933
+  open: threshold=0.450, F1=0.2571
+  partial: threshold=0.550, F1=0.4645
+  scale: threshold=0.400, F1=0.1651
+  set: threshold=0.550, F1=0.5090
+  simple: threshold=0.550, F1=0.6871
+[stage1] Epoch  6: Train L=0.4068 Val L=0.3494 | Val Q=0.5763 A=0.6080 Final=11.8422
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.5831
+  abstract: threshold=0.500, F1=0.6220
+  artifacts: threshold=0.500, F1=0.2581
+  intersection: threshold=0.400, F1=0.0659
+  lowpoly: threshold=0.550, F1=0.4829
+  noisy: threshold=0.450, F1=0.7947
+  open: threshold=0.500, F1=0.2513
+  partial: threshold=0.550, F1=0.4634
+  scale: threshold=0.400, F1=0.1311
+  set: threshold=0.500, F1=0.5166
+  simple: threshold=0.550, F1=0.7002
+[stage1] Epoch  7: Train L=0.3988 Val L=0.3464 | Val Q=0.5831 A=0.6127 Final=11.9581
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.5764
+  abstract: threshold=0.550, F1=0.6292
+  artifacts: threshold=0.450, F1=0.2468
+  intersection: threshold=0.400, F1=0.0488
+  lowpoly: threshold=0.550, F1=0.4522
+  noisy: threshold=0.400, F1=0.7936
+  open: threshold=0.500, F1=0.2747
+  partial: threshold=0.600, F1=0.4667
+  scale: threshold=0.450, F1=0.1250
+  set: threshold=0.500, F1=0.5424
+  simple: threshold=0.600, F1=0.6922
+[stage1] Epoch  8: Train L=0.3978 Val L=0.3499 | Val Q=0.5764 A=0.6117 Final=11.8814
+✅ Unfrozen layer: 6
+✅ Unfrozen layer: 7
+✅ Unfrozen layer: 8
+Trainable params: 25,803,298 / 27,248,226 (94.70%)
+  Optimal quality threshold: 0.600, F1: 0.6010
+  abstract: threshold=0.550, F1=0.6599
+  artifacts: threshold=0.450, F1=0.2457
+  intersection: threshold=0.400, F1=0.0833
+  lowpoly: threshold=0.550, F1=0.4659
+  noisy: threshold=0.450, F1=0.8083
+  open: threshold=0.450, F1=0.2698
+  partial: threshold=0.550, F1=0.4861
+  scale: threshold=0.350, F1=0.1176
+  set: threshold=0.500, F1=0.5443
+  simple: threshold=0.550, F1=0.7091
+[stage2] Epoch  9: Train L=0.3834 | Val L=0.3404 | Val Q=0.6010 A=0.6258 Final=12.2684
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.6266
+  abstract: threshold=0.550, F1=0.6836
+  artifacts: threshold=0.450, F1=0.2456
+  intersection: threshold=0.350, F1=0.0449
+  lowpoly: threshold=0.550, F1=0.4976
+  noisy: threshold=0.450, F1=0.8296
+  open: threshold=0.450, F1=0.2773
+  partial: threshold=0.600, F1=0.5280
+  scale: threshold=0.450, F1=0.1633
+  set: threshold=0.500, F1=0.5586
+  simple: threshold=0.550, F1=0.7145
+[stage2] Epoch 10: Train L=0.3562 | Val L=0.3213 | Val Q=0.6266 A=0.6434 Final=12.7005
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.550, F1: 0.6490
+  abstract: threshold=0.550, F1=0.6882
+  artifacts: threshold=0.450, F1=0.2453
+  intersection: threshold=0.450, F1=0.0909
+  lowpoly: threshold=0.550, F1=0.5043
+  noisy: threshold=0.450, F1=0.8381
+  open: threshold=0.500, F1=0.2749
+  partial: threshold=0.600, F1=0.5263
+  scale: threshold=0.450, F1=0.1667
+  set: threshold=0.550, F1=0.5558
+  simple: threshold=0.500, F1=0.7103
+[stage2] Epoch 11: Train L=0.3396 | Val L=0.3138 | Val Q=0.6490 A=0.6464 Final=12.9536
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.600, F1: 0.6634
+  abstract: threshold=0.550, F1=0.7071
+  artifacts: threshold=0.500, F1=0.2786
+  intersection: threshold=0.450, F1=0.1053
+  lowpoly: threshold=0.600, F1=0.5278
+  noisy: threshold=0.400, F1=0.8359
+  open: threshold=0.450, F1=0.2710
+  partial: threshold=0.600, F1=0.5401
+  scale: threshold=0.450, F1=0.2000
+  set: threshold=0.500, F1=0.5708
+  simple: threshold=0.500, F1=0.7256
+[stage2] Epoch 12: Train L=0.3272 | Val L=0.3095 | Val Q=0.6634 A=0.6575 Final=13.2093
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.600, F1: 0.6872
+  abstract: threshold=0.500, F1=0.7090
+  artifacts: threshold=0.450, F1=0.2547
+  intersection: threshold=0.450, F1=0.1053
+  lowpoly: threshold=0.550, F1=0.5413
+  noisy: threshold=0.400, F1=0.8439
+  open: threshold=0.500, F1=0.2795
+  partial: threshold=0.600, F1=0.5441
+  scale: threshold=0.400, F1=0.1622
+  set: threshold=0.550, F1=0.5867
+  simple: threshold=0.550, F1=0.7313
+[stage2] Epoch 13: Train L=0.3223 | Val L=0.3112 | Val Q=0.6872 A=0.6638 Final=13.5096
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.600, F1: 0.6962
+  abstract: threshold=0.500, F1=0.7211
+  artifacts: threshold=0.500, F1=0.2911
+  intersection: threshold=0.400, F1=0.0696
+  lowpoly: threshold=0.550, F1=0.5433
+  noisy: threshold=0.400, F1=0.8405
+  open: threshold=0.450, F1=0.2701
+  partial: threshold=0.650, F1=0.5641
+  scale: threshold=0.400, F1=0.1833
+  set: threshold=0.550, F1=0.5831
+  simple: threshold=0.550, F1=0.7435
+[stage2] Epoch 14: Train L=0.3119 | Val L=0.2951 | Val Q=0.6962 A=0.6682 Final=13.6441
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.600, F1: 0.6833
+  abstract: threshold=0.550, F1=0.7238
+  artifacts: threshold=0.500, F1=0.2966
+  intersection: threshold=0.450, F1=0.0909
+  lowpoly: threshold=0.550, F1=0.5553
+  noisy: threshold=0.400, F1=0.8418
+  open: threshold=0.450, F1=0.2825
+  partial: threshold=0.650, F1=0.5424
+  scale: threshold=0.400, F1=0.1626
+  set: threshold=0.500, F1=0.5962
+  simple: threshold=0.500, F1=0.7324
+[stage2] Epoch 15: Train L=0.3086 | Val L=0.3045 | Val Q=0.6833 A=0.6694 Final=13.5264
+  Optimal quality threshold: 0.650, F1: 0.6971
+  abstract: threshold=0.600, F1=0.7249
+  artifacts: threshold=0.500, F1=0.2775
+  intersection: threshold=0.450, F1=0.1000
+  lowpoly: threshold=0.550, F1=0.5455
+  noisy: threshold=0.450, F1=0.8457
+  open: threshold=0.450, F1=0.2816
+  partial: threshold=0.550, F1=0.5325
+  scale: threshold=0.400, F1=0.1849
+  set: threshold=0.550, F1=0.5955
+  simple: threshold=0.550, F1=0.7415
+[stage2] Epoch 16: Train L=0.2972 | Val L=0.2939 | Val Q=0.6971 A=0.6705 Final=13.6760
+  ✓ New best saved -> best_model_fold0.pth
+  Optimal quality threshold: 0.600, F1: 0.6904
+  abstract: threshold=0.500, F1=0.7262
+  artifacts: threshold=0.500, F1=0.2710
+  intersection: threshold=0.450, F1=0.0909
+  lowpoly: threshold=0.600, F1=0.5546
+  noisy: threshold=0.450, F1=0.8464
+  open: threshold=0.450, F1=0.2965
+  partial: threshold=0.650, F1=0.5469
+  scale: threshold=0.500, F1=0.2000
+  set: threshold=0.500, F1=0.6040
+  simple: threshold=0.500, F1=0.7438
+[stage2] Epoch 17: Train L=0.2929 | Val L=0.2916 | Val Q=0.6904 A=0.6745 Final=13.6491
+  Optimal quality threshold: 0.650, F1: 0.6864
+  abstract: threshold=0.600, F1=0.7330
+  artifacts: threshold=0.500, F1=0.2802
+  intersection: threshold=0.450, F1=0.1000
+  lowpoly: threshold=0.500, F1=0.5632
+  noisy: threshold=0.450, F1=0.8458
+  open: threshold=0.450, F1=0.3029
+  partial: threshold=0.600, F1=0.5496
+  scale: threshold=0.450, F1=0.2222
+  set: threshold=0.550, F1=0.6247
+  simple: threshold=0.500, F1=0.7328
+[stage2] Epoch 18: Train L=0.2953 | Val L=0.2980 | Val Q=0.6864 A=0.6771 Final=13.6354
+  Optimal quality threshold: 0.650, F1: 0.6828
+  abstract: threshold=0.550, F1=0.7396
+  artifacts: threshold=0.550, F1=0.2748
+  intersection: threshold=0.450, F1=0.0909
+  lowpoly: threshold=0.550, F1=0.5708
+  noisy: threshold=0.450, F1=0.8434
+  open: threshold=0.450, F1=0.3069
+  partial: threshold=0.650, F1=0.5691
+  scale: threshold=0.450, F1=0.2192
+  set: threshold=0.550, F1=0.6200
+  simple: threshold=0.500, F1=0.7321
+[stage2] Epoch 19: Train L=0.2824 | Val L=0.3006 | Val Q=0.6828 A=0.6781 Final=13.6091
+  Optimal quality threshold: 0.600, F1: 0.6920
+  abstract: threshold=0.600, F1=0.7359
+  artifacts: threshold=0.500, F1=0.2795
+  intersection: threshold=0.450, F1=0.0833
+  lowpoly: threshold=0.550, F1=0.5688
+  noisy: threshold=0.450, F1=0.8481
+  open: threshold=0.450, F1=0.3059
+  partial: threshold=0.600, F1=0.5652
+  scale: threshold=0.500, F1=0.2222
+  set: threshold=0.550, F1=0.6253
+  simple: threshold=0.500, F1=0.7352
+[stage2] Epoch 20: Train L=0.2728 | Val L=0.2874 | Val Q=0.6920 A=0.6799 Final=13.7199
+  ✓ New best saved -> best_model_fold0.pth
+
+======================================================================
+FOLD 2/5 | seed=2024 | train=7172 | val=1792
+======================================================================
+  Optimal quality threshold: 0.500, F1: 0.4512
+  abstract: threshold=0.500, F1=0.5606
+  artifacts: threshold=0.450, F1=0.1459
+  intersection: threshold=0.300, F1=0.0148
+  lowpoly: threshold=0.500, F1=0.4050
+  noisy: threshold=0.450, F1=0.7373
+  open: threshold=0.450, F1=0.1619
+  partial: threshold=0.500, F1=0.3548
+  scale: threshold=0.350, F1=0.0437
+  set: threshold=0.500, F1=0.3854
+  simple: threshold=0.550, F1=0.6440
+[stage1] Epoch  1: Train L=0.5743 Val L=0.4243 | Val Q=0.4512 A=0.5342 Final=9.8542
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5109
+  abstract: threshold=0.600, F1=0.5960
+  artifacts: threshold=0.450, F1=0.1541
+  intersection: threshold=0.350, F1=0.0345
+  lowpoly: threshold=0.550, F1=0.4457
+  noisy: threshold=0.400, F1=0.7541
+  open: threshold=0.500, F1=0.2010
+  partial: threshold=0.550, F1=0.4662
+  scale: threshold=0.400, F1=0.1429
+  set: threshold=0.500, F1=0.4680
+  simple: threshold=0.550, F1=0.6531
+[stage1] Epoch  2: Train L=0.4680 Val L=0.3935 | Val Q=0.5109 A=0.5671 Final=10.7805
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5141
+  abstract: threshold=0.600, F1=0.6248
+  artifacts: threshold=0.550, F1=0.2136
+  intersection: threshold=0.400, F1=0.0364
+  lowpoly: threshold=0.550, F1=0.4612
+  noisy: threshold=0.450, F1=0.7736
+  open: threshold=0.550, F1=0.2154
+  partial: threshold=0.550, F1=0.5000
+  scale: threshold=0.450, F1=0.2727
+  set: threshold=0.500, F1=0.4769
+  simple: threshold=0.550, F1=0.6674
+[stage1] Epoch  3: Train L=0.4424 Val L=0.3735 | Val Q=0.5141 A=0.5883 Final=11.0240
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5238
+  abstract: threshold=0.600, F1=0.6740
+  artifacts: threshold=0.450, F1=0.2525
+  intersection: threshold=0.350, F1=0.0474
+  lowpoly: threshold=0.550, F1=0.4723
+  noisy: threshold=0.500, F1=0.7645
+  open: threshold=0.500, F1=0.2531
+  partial: threshold=0.600, F1=0.5167
+  scale: threshold=0.450, F1=0.2041
+  set: threshold=0.500, F1=0.4545
+  simple: threshold=0.550, F1=0.6575
+[stage1] Epoch  4: Train L=0.4172 Val L=0.3697 | Val Q=0.5238 A=0.5930 Final=11.1680
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5159
+  abstract: threshold=0.600, F1=0.6567
+  artifacts: threshold=0.500, F1=0.2202
+  intersection: threshold=0.350, F1=0.0420
+  lowpoly: threshold=0.550, F1=0.4527
+  noisy: threshold=0.450, F1=0.7764
+  open: threshold=0.500, F1=0.2868
+  partial: threshold=0.600, F1=0.5167
+  scale: threshold=0.450, F1=0.3043
+  set: threshold=0.500, F1=0.4658
+  simple: threshold=0.550, F1=0.6596
+[stage1] Epoch  5: Train L=0.4099 Val L=0.3663 | Val Q=0.5159 A=0.5949 Final=11.1080
+  Optimal quality threshold: 0.550, F1: 0.5215
+  abstract: threshold=0.550, F1=0.6655
+  artifacts: threshold=0.500, F1=0.2475
+  intersection: threshold=0.350, F1=0.0413
+  lowpoly: threshold=0.550, F1=0.4544
+  noisy: threshold=0.450, F1=0.7741
+  open: threshold=0.500, F1=0.2639
+  partial: threshold=0.600, F1=0.5410
+  scale: threshold=0.450, F1=0.3137
+  set: threshold=0.500, F1=0.4969
+  simple: threshold=0.550, F1=0.6721
+[stage1] Epoch  6: Train L=0.4047 Val L=0.3634 | Val Q=0.5215 A=0.6024 Final=11.2388
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5375
+  abstract: threshold=0.550, F1=0.6704
+  artifacts: threshold=0.450, F1=0.2462
+  intersection: threshold=0.400, F1=0.0667
+  lowpoly: threshold=0.550, F1=0.4787
+  noisy: threshold=0.450, F1=0.7749
+  open: threshold=0.500, F1=0.2727
+  partial: threshold=0.600, F1=0.5070
+  scale: threshold=0.450, F1=0.3404
+  set: threshold=0.500, F1=0.4829
+  simple: threshold=0.550, F1=0.6749
+[stage1] Epoch  7: Train L=0.3993 Val L=0.3562 | Val Q=0.5375 A=0.6050 Final=11.4258
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.550, F1: 0.5339
+  abstract: threshold=0.550, F1=0.6758
+  artifacts: threshold=0.500, F1=0.2500
+  intersection: threshold=0.350, F1=0.0462
+  lowpoly: threshold=0.550, F1=0.5087
+  noisy: threshold=0.450, F1=0.7711
+  open: threshold=0.500, F1=0.2552
+  partial: threshold=0.600, F1=0.5395
+  scale: threshold=0.450, F1=0.2609
+  set: threshold=0.550, F1=0.4974
+  simple: threshold=0.550, F1=0.6746
+[stage1] Epoch  8: Train L=0.3916 Val L=0.3542 | Val Q=0.5339 A=0.6091 Final=11.4303
+  ✓ New best saved -> best_model_fold1.pth
+✅ Unfrozen layer: 6
+✅ Unfrozen layer: 7
+✅ Unfrozen layer: 8
+Trainable params: 25,803,298 / 27,248,226 (94.70%)
+  Optimal quality threshold: 0.550, F1: 0.5662
+  abstract: threshold=0.550, F1=0.7126
+  artifacts: threshold=0.500, F1=0.2308
+  intersection: threshold=0.350, F1=0.0455
+  lowpoly: threshold=0.550, F1=0.5263
+  noisy: threshold=0.400, F1=0.7972
+  open: threshold=0.500, F1=0.3004
+  partial: threshold=0.650, F1=0.5357
+  scale: threshold=0.400, F1=0.2381
+  set: threshold=0.550, F1=0.5263
+  simple: threshold=0.550, F1=0.6913
+[stage2] Epoch  9: Train L=0.3730 | Val L=0.3452 | Val Q=0.5662 A=0.6313 Final=11.9745
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.5821
+  abstract: threshold=0.650, F1=0.7161
+  artifacts: threshold=0.450, F1=0.2612
+  intersection: threshold=0.350, F1=0.0446
+  lowpoly: threshold=0.550, F1=0.5485
+  noisy: threshold=0.400, F1=0.8116
+  open: threshold=0.500, F1=0.3282
+  partial: threshold=0.600, F1=0.5692
+  scale: threshold=0.400, F1=0.2169
+  set: threshold=0.550, F1=0.5446
+  simple: threshold=0.550, F1=0.6879
+[stage2] Epoch 10: Train L=0.3466 | Val L=0.3352 | Val Q=0.5821 A=0.6432 Final=12.2530
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6062
+  abstract: threshold=0.550, F1=0.7359
+  artifacts: threshold=0.500, F1=0.2857
+  intersection: threshold=0.400, F1=0.0870
+  lowpoly: threshold=0.550, F1=0.5607
+  noisy: threshold=0.400, F1=0.8225
+  open: threshold=0.500, F1=0.3101
+  partial: threshold=0.600, F1=0.5714
+  scale: threshold=0.450, F1=0.2642
+  set: threshold=0.550, F1=0.5590
+  simple: threshold=0.550, F1=0.6932
+[stage2] Epoch 11: Train L=0.3362 | Val L=0.3294 | Val Q=0.6062 A=0.6539 Final=12.6003
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6166
+  abstract: threshold=0.550, F1=0.7401
+  artifacts: threshold=0.500, F1=0.2842
+  intersection: threshold=0.400, F1=0.0857
+  lowpoly: threshold=0.550, F1=0.5563
+  noisy: threshold=0.350, F1=0.8206
+  open: threshold=0.500, F1=0.3295
+  partial: threshold=0.650, F1=0.5512
+  scale: threshold=0.450, F1=0.2692
+  set: threshold=0.550, F1=0.5748
+  simple: threshold=0.550, F1=0.6876
+[stage2] Epoch 12: Train L=0.3231 | Val L=0.3227 | Val Q=0.6166 A=0.6541 Final=12.7068
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6333
+  abstract: threshold=0.550, F1=0.7422
+  artifacts: threshold=0.500, F1=0.2800
+  intersection: threshold=0.400, F1=0.0615
+  lowpoly: threshold=0.550, F1=0.5626
+  noisy: threshold=0.400, F1=0.8308
+  open: threshold=0.500, F1=0.3226
+  partial: threshold=0.650, F1=0.5932
+  scale: threshold=0.450, F1=0.2500
+  set: threshold=0.550, F1=0.5598
+  simple: threshold=0.550, F1=0.6926
+[stage2] Epoch 13: Train L=0.3135 | Val L=0.3170 | Val Q=0.6333 A=0.6581 Final=12.9147
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6305
+  abstract: threshold=0.550, F1=0.7459
+  artifacts: threshold=0.500, F1=0.3077
+  intersection: threshold=0.450, F1=0.1176
+  lowpoly: threshold=0.550, F1=0.5701
+  noisy: threshold=0.400, F1=0.8349
+  open: threshold=0.500, F1=0.3065
+  partial: threshold=0.650, F1=0.5909
+  scale: threshold=0.450, F1=0.2963
+  set: threshold=0.550, F1=0.5908
+  simple: threshold=0.550, F1=0.6928
+[stage2] Epoch 14: Train L=0.3092 | Val L=0.3113 | Val Q=0.6305 A=0.6649 Final=12.9546
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6564
+  abstract: threshold=0.600, F1=0.7519
+  artifacts: threshold=0.500, F1=0.3037
+  intersection: threshold=0.400, F1=0.0800
+  lowpoly: threshold=0.550, F1=0.5901
+  noisy: threshold=0.450, F1=0.8352
+  open: threshold=0.500, F1=0.2963
+  partial: threshold=0.650, F1=0.6032
+  scale: threshold=0.500, F1=0.2778
+  set: threshold=0.500, F1=0.5579
+  simple: threshold=0.500, F1=0.6998
+[stage2] Epoch 15: Train L=0.2968 | Val L=0.3024 | Val Q=0.6564 A=0.6657 Final=13.2215
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6326
+  abstract: threshold=0.550, F1=0.7640
+  artifacts: threshold=0.500, F1=0.2809
+  intersection: threshold=0.450, F1=0.1250
+  lowpoly: threshold=0.550, F1=0.5799
+  noisy: threshold=0.400, F1=0.8282
+  open: threshold=0.500, F1=0.3100
+  partial: threshold=0.650, F1=0.6299
+  scale: threshold=0.450, F1=0.2857
+  set: threshold=0.500, F1=0.5780
+  simple: threshold=0.600, F1=0.7067
+[stage2] Epoch 16: Train L=0.2904 | Val L=0.3123 | Val Q=0.6326 A=0.6691 Final=13.0169
+  Optimal quality threshold: 0.600, F1: 0.6597
+  abstract: threshold=0.550, F1=0.7586
+  artifacts: threshold=0.500, F1=0.2871
+  intersection: threshold=0.450, F1=0.1053
+  lowpoly: threshold=0.550, F1=0.5893
+  noisy: threshold=0.400, F1=0.8378
+  open: threshold=0.500, F1=0.3254
+  partial: threshold=0.650, F1=0.6087
+  scale: threshold=0.450, F1=0.3214
+  set: threshold=0.500, F1=0.5763
+  simple: threshold=0.500, F1=0.7001
+[stage2] Epoch 17: Train L=0.2831 | Val L=0.3017 | Val Q=0.6597 A=0.6711 Final=13.3079
+  ✓ New best saved -> best_model_fold1.pth
+  Optimal quality threshold: 0.600, F1: 0.6566
+  abstract: threshold=0.550, F1=0.7640
+  artifacts: threshold=0.500, F1=0.2925
+  intersection: threshold=0.400, F1=0.0541
+  lowpoly: threshold=0.600, F1=0.5938
+  noisy: threshold=0.450, F1=0.8368
+  open: threshold=0.500, F1=0.3267
+  partial: threshold=0.600, F1=0.6027
+  scale: threshold=0.450, F1=0.2951
+  set: threshold=0.600, F1=0.5922
+  simple: threshold=0.500, F1=0.7015
+[stage2] Epoch 18: Train L=0.2826 | Val L=0.3069 | Val Q=0.6566 A=0.6734 Final=13.3002
+  Optimal quality threshold: 0.650, F1: 0.6408
+  abstract: threshold=0.550, F1=0.7623
+  artifacts: threshold=0.500, F1=0.2995
+  intersection: threshold=0.400, F1=0.0750
+  lowpoly: threshold=0.550, F1=0.6103
+  noisy: threshold=0.400, F1=0.8325
+  open: threshold=0.500, F1=0.3059
+  partial: threshold=0.600, F1=0.6174
+  scale: threshold=0.500, F1=0.2778
+  set: threshold=0.500, F1=0.5812
+  simple: threshold=0.500, F1=0.7003
+[stage2] Epoch 19: Train L=0.2748 | Val L=0.3220 | Val Q=0.6408 A=0.6722 Final=13.1305
+  Optimal quality threshold: 0.650, F1: 0.6397
+  abstract: threshold=0.550, F1=0.7546
+  artifacts: threshold=0.450, F1=0.2809
+  intersection: threshold=0.400, F1=0.0594
+  lowpoly: threshold=0.550, F1=0.6010
+  noisy: threshold=0.350, F1=0.8240
+  open: threshold=0.550, F1=0.3114
+  partial: threshold=0.700, F1=0.6018
+  scale: threshold=0.450, F1=0.2647
+  set: threshold=0.500, F1=0.5803
+  simple: threshold=0.550, F1=0.7082
+[stage2] Epoch 20: Train L=0.2677 | Val L=0.3204 | Val Q=0.6397 A=0.6681 Final=13.0778
+
+======================================================================
+FOLD 3/5 | seed=418 | train=7172 | val=1792
+======================================================================
+  Optimal quality threshold: 0.550, F1: 0.4790
+  abstract: threshold=0.550, F1=0.5380
+  artifacts: threshold=0.450, F1=0.1878
+  intersection: threshold=0.400, F1=0.0498
+  lowpoly: threshold=0.500, F1=0.3499
+  noisy: threshold=0.400, F1=0.7279
+  open: threshold=0.400, F1=0.1671
+  partial: threshold=0.500, F1=0.3960
+  scale: threshold=0.450, F1=0.0865
+  set: threshold=0.500, F1=0.3750
+  simple: threshold=0.550, F1=0.6192
+[stage1] Epoch  1: Train L=0.5716 Val L=0.4408 | Val Q=0.4790 A=0.5125 Final=9.9141
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.5109
+  abstract: threshold=0.600, F1=0.5870
+  artifacts: threshold=0.450, F1=0.1810
+  intersection: threshold=0.400, F1=0.1168
+  lowpoly: threshold=0.500, F1=0.3840
+  noisy: threshold=0.450, F1=0.7627
+  open: threshold=0.450, F1=0.2241
+  partial: threshold=0.550, F1=0.4688
+  scale: threshold=0.400, F1=0.1257
+  set: threshold=0.500, F1=0.4167
+  simple: threshold=0.550, F1=0.6469
+[stage1] Epoch  2: Train L=0.4745 Val L=0.3967 | Val Q=0.5109 A=0.5497 Final=10.6053
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.500, F1: 0.5408
+  abstract: threshold=0.600, F1=0.6028
+  artifacts: threshold=0.450, F1=0.1886
+  intersection: threshold=0.400, F1=0.1192
+  lowpoly: threshold=0.500, F1=0.3982
+  noisy: threshold=0.500, F1=0.7633
+  open: threshold=0.500, F1=0.2467
+  partial: threshold=0.500, F1=0.4455
+  scale: threshold=0.450, F1=0.1395
+  set: threshold=0.550, F1=0.4313
+  simple: threshold=0.600, F1=0.6763
+[stage1] Epoch  3: Train L=0.4424 Val L=0.3843 | Val Q=0.5408 A=0.5619 Final=11.0278
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.5684
+  abstract: threshold=0.550, F1=0.6248
+  artifacts: threshold=0.500, F1=0.2252
+  intersection: threshold=0.400, F1=0.1111
+  lowpoly: threshold=0.550, F1=0.4275
+  noisy: threshold=0.450, F1=0.7700
+  open: threshold=0.500, F1=0.2206
+  partial: threshold=0.600, F1=0.4627
+  scale: threshold=0.450, F1=0.1961
+  set: threshold=0.550, F1=0.4373
+  simple: threshold=0.550, F1=0.6816
+[stage1] Epoch  4: Train L=0.4250 Val L=0.3763 | Val Q=0.5684 A=0.5731 Final=11.4146
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.5673
+  abstract: threshold=0.600, F1=0.6170
+  artifacts: threshold=0.450, F1=0.2265
+  intersection: threshold=0.400, F1=0.1250
+  lowpoly: threshold=0.550, F1=0.4160
+  noisy: threshold=0.400, F1=0.7727
+  open: threshold=0.450, F1=0.2541
+  partial: threshold=0.600, F1=0.4789
+  scale: threshold=0.400, F1=0.1987
+  set: threshold=0.550, F1=0.4703
+  simple: threshold=0.550, F1=0.6896
+[stage1] Epoch  5: Train L=0.4095 Val L=0.3751 | Val Q=0.5673 A=0.5795 Final=11.4674
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.5859
+  abstract: threshold=0.550, F1=0.6586
+  artifacts: threshold=0.500, F1=0.2164
+  intersection: threshold=0.400, F1=0.1463
+  lowpoly: threshold=0.550, F1=0.4372
+  noisy: threshold=0.450, F1=0.7746
+  open: threshold=0.450, F1=0.2670
+  partial: threshold=0.600, F1=0.5191
+  scale: threshold=0.450, F1=0.2909
+  set: threshold=0.500, F1=0.4681
+  simple: threshold=0.550, F1=0.6916
+[stage1] Epoch  6: Train L=0.4036 Val L=0.3604 | Val Q=0.5859 A=0.5914 Final=11.7725
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.5705
+  abstract: threshold=0.550, F1=0.6561
+  artifacts: threshold=0.500, F1=0.2396
+  intersection: threshold=0.400, F1=0.1186
+  lowpoly: threshold=0.550, F1=0.4439
+  noisy: threshold=0.450, F1=0.7779
+  open: threshold=0.450, F1=0.2495
+  partial: threshold=0.600, F1=0.4828
+  scale: threshold=0.450, F1=0.2188
+  set: threshold=0.500, F1=0.4825
+  simple: threshold=0.600, F1=0.6981
+[stage1] Epoch  7: Train L=0.4028 Val L=0.3589 | Val Q=0.5705 A=0.5926 Final=11.6313
+  Optimal quality threshold: 0.550, F1: 0.5515
+  abstract: threshold=0.550, F1=0.6640
+  artifacts: threshold=0.450, F1=0.2246
+  intersection: threshold=0.400, F1=0.1452
+  lowpoly: threshold=0.550, F1=0.4444
+  noisy: threshold=0.450, F1=0.7684
+  open: threshold=0.450, F1=0.2664
+  partial: threshold=0.650, F1=0.4874
+  scale: threshold=0.450, F1=0.2424
+  set: threshold=0.550, F1=0.4828
+  simple: threshold=0.550, F1=0.7030
+[stage1] Epoch  8: Train L=0.3939 Val L=0.3610 | Val Q=0.5515 A=0.5933 Final=11.4477
+✅ Unfrozen layer: 6
+✅ Unfrozen layer: 7
+✅ Unfrozen layer: 8
+Trainable params: 25,803,298 / 27,248,226 (94.70%)
+  Optimal quality threshold: 0.550, F1: 0.6050
+  abstract: threshold=0.600, F1=0.6934
+  artifacts: threshold=0.500, F1=0.2381
+  intersection: threshold=0.400, F1=0.1031
+  lowpoly: threshold=0.550, F1=0.4440
+  noisy: threshold=0.400, F1=0.7956
+  open: threshold=0.450, F1=0.2784
+  partial: threshold=0.600, F1=0.5109
+  scale: threshold=0.400, F1=0.2261
+  set: threshold=0.550, F1=0.5012
+  simple: threshold=0.550, F1=0.6979
+[stage2] Epoch  9: Train L=0.3778 | Val L=0.3549 | Val Q=0.6050 A=0.6068 Final=12.1187
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.600, F1: 0.6199
+  abstract: threshold=0.550, F1=0.7070
+  artifacts: threshold=0.500, F1=0.2661
+  intersection: threshold=0.400, F1=0.1188
+  lowpoly: threshold=0.550, F1=0.4647
+  noisy: threshold=0.450, F1=0.8079
+  open: threshold=0.450, F1=0.2711
+  partial: threshold=0.650, F1=0.5088
+  scale: threshold=0.450, F1=0.2727
+  set: threshold=0.550, F1=0.5362
+  simple: threshold=0.500, F1=0.6920
+[stage2] Epoch 10: Train L=0.3568 | Val L=0.3349 | Val Q=0.6199 A=0.6183 Final=12.3817
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.6382
+  abstract: threshold=0.550, F1=0.7195
+  artifacts: threshold=0.500, F1=0.2594
+  intersection: threshold=0.400, F1=0.1299
+  lowpoly: threshold=0.500, F1=0.4764
+  noisy: threshold=0.500, F1=0.8103
+  open: threshold=0.450, F1=0.2729
+  partial: threshold=0.600, F1=0.5000
+  scale: threshold=0.400, F1=0.2326
+  set: threshold=0.550, F1=0.5436
+  simple: threshold=0.550, F1=0.7139
+[stage2] Epoch 11: Train L=0.3416 | Val L=0.3256 | Val Q=0.6382 A=0.6261 Final=12.6432
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.6492
+  abstract: threshold=0.550, F1=0.7413
+  artifacts: threshold=0.450, F1=0.2597
+  intersection: threshold=0.400, F1=0.1429
+  lowpoly: threshold=0.500, F1=0.4893
+  noisy: threshold=0.450, F1=0.8168
+  open: threshold=0.450, F1=0.2810
+  partial: threshold=0.600, F1=0.5000
+  scale: threshold=0.400, F1=0.2600
+  set: threshold=0.500, F1=0.5292
+  simple: threshold=0.550, F1=0.7063
+[stage2] Epoch 12: Train L=0.3320 | Val L=0.3228 | Val Q=0.6492 A=0.6302 Final=12.7936
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.6517
+  abstract: threshold=0.550, F1=0.7515
+  artifacts: threshold=0.450, F1=0.2749
+  intersection: threshold=0.400, F1=0.1649
+  lowpoly: threshold=0.500, F1=0.4966
+  noisy: threshold=0.450, F1=0.8133
+  open: threshold=0.450, F1=0.2831
+  partial: threshold=0.600, F1=0.5166
+  scale: threshold=0.450, F1=0.2424
+  set: threshold=0.550, F1=0.5553
+  simple: threshold=0.550, F1=0.7056
+[stage2] Epoch 13: Train L=0.3212 | Val L=0.3210 | Val Q=0.6517 A=0.6352 Final=12.8697
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.550, F1: 0.6361
+  abstract: threshold=0.550, F1=0.7627
+  artifacts: threshold=0.500, F1=0.2458
+  intersection: threshold=0.350, F1=0.1053
+  lowpoly: threshold=0.550, F1=0.4867
+  noisy: threshold=0.450, F1=0.8104
+  open: threshold=0.500, F1=0.3117
+  partial: threshold=0.650, F1=0.5231
+  scale: threshold=0.450, F1=0.2540
+  set: threshold=0.600, F1=0.5690
+  simple: threshold=0.550, F1=0.7174
+[stage2] Epoch 14: Train L=0.3127 | Val L=0.3229 | Val Q=0.6361 A=0.6386 Final=12.7470
+  Optimal quality threshold: 0.550, F1: 0.6319
+  abstract: threshold=0.550, F1=0.7640
+  artifacts: threshold=0.450, F1=0.2720
+  intersection: threshold=0.400, F1=0.1348
+  lowpoly: threshold=0.500, F1=0.4861
+  noisy: threshold=0.400, F1=0.8092
+  open: threshold=0.500, F1=0.2814
+  partial: threshold=0.650, F1=0.5324
+  scale: threshold=0.450, F1=0.2000
+  set: threshold=0.550, F1=0.5755
+  simple: threshold=0.550, F1=0.7087
+[stage2] Epoch 15: Train L=0.3027 | Val L=0.3297 | Val Q=0.6319 A=0.6365 Final=12.6838
+  Optimal quality threshold: 0.550, F1: 0.6424
+  abstract: threshold=0.550, F1=0.7659
+  artifacts: threshold=0.450, F1=0.2551
+  intersection: threshold=0.400, F1=0.1573
+  lowpoly: threshold=0.500, F1=0.4864
+  noisy: threshold=0.400, F1=0.8142
+  open: threshold=0.500, F1=0.3088
+  partial: threshold=0.550, F1=0.5198
+  scale: threshold=0.400, F1=0.2281
+  set: threshold=0.550, F1=0.5775
+  simple: threshold=0.550, F1=0.7123
+[stage2] Epoch 16: Train L=0.2976 | Val L=0.3272 | Val Q=0.6424 A=0.6402 Final=12.8268
+  Optimal quality threshold: 0.550, F1: 0.6483
+  abstract: threshold=0.550, F1=0.7625
+  artifacts: threshold=0.450, F1=0.2670
+  intersection: threshold=0.400, F1=0.1573
+  lowpoly: threshold=0.550, F1=0.4945
+  noisy: threshold=0.450, F1=0.8163
+  open: threshold=0.500, F1=0.3177
+  partial: threshold=0.650, F1=0.5303
+  scale: threshold=0.450, F1=0.2424
+  set: threshold=0.600, F1=0.5852
+  simple: threshold=0.550, F1=0.7145
+[stage2] Epoch 17: Train L=0.2887 | Val L=0.3185 | Val Q=0.6483 A=0.6443 Final=12.9260
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.600, F1: 0.6610
+  abstract: threshold=0.550, F1=0.7683
+  artifacts: threshold=0.450, F1=0.2644
+  intersection: threshold=0.400, F1=0.1489
+  lowpoly: threshold=0.550, F1=0.4988
+  noisy: threshold=0.450, F1=0.8164
+  open: threshold=0.500, F1=0.3121
+  partial: threshold=0.600, F1=0.5101
+  scale: threshold=0.500, F1=0.2381
+  set: threshold=0.600, F1=0.5954
+  simple: threshold=0.550, F1=0.7117
+[stage2] Epoch 18: Train L=0.2835 | Val L=0.3203 | Val Q=0.6610 A=0.6445 Final=13.0557
+  ✓ New best saved -> best_model_fold2.pth
+  Optimal quality threshold: 0.650, F1: 0.6480
+  abstract: threshold=0.550, F1=0.7787
+  artifacts: threshold=0.450, F1=0.2783
+  intersection: threshold=0.400, F1=0.1446
+  lowpoly: threshold=0.500, F1=0.4864
+  noisy: threshold=0.450, F1=0.8147
+  open: threshold=0.500, F1=0.3134
+  partial: threshold=0.650, F1=0.5352
+  scale: threshold=0.450, F1=0.2029
+  set: threshold=0.600, F1=0.5875
+  simple: threshold=0.550, F1=0.7134
+[stage2] Epoch 19: Train L=0.2833 | Val L=0.3279 | Val Q=0.6480 A=0.6446 Final=12.9263
+  Optimal quality threshold: 0.600, F1: 0.6561
+  abstract: threshold=0.550, F1=0.7751
+  artifacts: threshold=0.450, F1=0.2811
+  intersection: threshold=0.400, F1=0.1522
+  lowpoly: threshold=0.500, F1=0.5078
+  noisy: threshold=0.400, F1=0.8124
+  open: threshold=0.500, F1=0.3209
+  partial: threshold=0.650, F1=0.5217
+  scale: threshold=0.450, F1=0.2319
+  set: threshold=0.550, F1=0.5865
+  simple: threshold=0.600, F1=0.7194
+[stage2] Epoch 20: Train L=0.2814 | Val L=0.3264 | Val Q=0.6561 A=0.6477 Final=13.0377
+
+======================================================================
+FOLD 4/5 | seed=122 | train=7172 | val=1792
+======================================================================
+  Optimal quality threshold: 0.500, F1: 0.4460
+  abstract: threshold=0.600, F1=0.5360
+  artifacts: threshold=0.400, F1=0.1854
+  intersection: threshold=0.350, F1=0.0430
+  lowpoly: threshold=0.500, F1=0.3784
+  noisy: threshold=0.400, F1=0.7132
+  open: threshold=0.450, F1=0.1695
+  partial: threshold=0.450, F1=0.2846
+  scale: threshold=0.350, F1=0.0384
+  set: threshold=0.500, F1=0.3880
+  simple: threshold=0.550, F1=0.6421
+[stage1] Epoch  1: Train L=0.5722 Val L=0.4391 | Val Q=0.4460 A=0.5163 Final=9.6226
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.4883
+  abstract: threshold=0.550, F1=0.5933
+  artifacts: threshold=0.450, F1=0.2124
+  intersection: threshold=0.400, F1=0.0690
+  lowpoly: threshold=0.500, F1=0.4410
+  noisy: threshold=0.450, F1=0.7483
+  open: threshold=0.450, F1=0.2376
+  partial: threshold=0.550, F1=0.4000
+  scale: threshold=0.350, F1=0.0652
+  set: threshold=0.500, F1=0.4642
+  simple: threshold=0.500, F1=0.6590
+[stage1] Epoch  2: Train L=0.4705 Val L=0.4175 | Val Q=0.4883 A=0.5619 Final=10.5021
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.550, F1: 0.5244
+  abstract: threshold=0.550, F1=0.6151
+  artifacts: threshold=0.450, F1=0.2251
+  intersection: threshold=0.400, F1=0.1075
+  lowpoly: threshold=0.550, F1=0.3845
+  noisy: threshold=0.450, F1=0.7766
+  open: threshold=0.450, F1=0.2218
+  partial: threshold=0.550, F1=0.4194
+  scale: threshold=0.400, F1=0.1667
+  set: threshold=0.500, F1=0.4688
+  simple: threshold=0.550, F1=0.6689
+[stage1] Epoch  3: Train L=0.4437 Val L=0.3895 | Val Q=0.5244 A=0.5703 Final=10.9469
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.550, F1: 0.5122
+  abstract: threshold=0.600, F1=0.6325
+  artifacts: threshold=0.500, F1=0.2345
+  intersection: threshold=0.400, F1=0.1284
+  lowpoly: threshold=0.550, F1=0.3849
+  noisy: threshold=0.450, F1=0.7611
+  open: threshold=0.450, F1=0.2464
+  partial: threshold=0.550, F1=0.4641
+  scale: threshold=0.400, F1=0.2174
+  set: threshold=0.500, F1=0.4635
+  simple: threshold=0.550, F1=0.6749
+[stage1] Epoch  4: Train L=0.4258 Val L=0.3831 | Val Q=0.5122 A=0.5734 Final=10.8564
+  Optimal quality threshold: 0.550, F1: 0.5146
+  abstract: threshold=0.600, F1=0.6366
+  artifacts: threshold=0.450, F1=0.2532
+  intersection: threshold=0.350, F1=0.0659
+  lowpoly: threshold=0.500, F1=0.4015
+  noisy: threshold=0.400, F1=0.7657
+  open: threshold=0.450, F1=0.2673
+  partial: threshold=0.550, F1=0.4186
+  scale: threshold=0.450, F1=0.2222
+  set: threshold=0.500, F1=0.4811
+  simple: threshold=0.550, F1=0.6831
+[stage1] Epoch  5: Train L=0.4142 Val L=0.3762 | Val Q=0.5146 A=0.5803 Final=10.9488
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.550, F1: 0.5420
+  abstract: threshold=0.550, F1=0.6360
+  artifacts: threshold=0.500, F1=0.2747
+  intersection: threshold=0.400, F1=0.0769
+  lowpoly: threshold=0.550, F1=0.4025
+  noisy: threshold=0.450, F1=0.7668
+  open: threshold=0.450, F1=0.2336
+  partial: threshold=0.550, F1=0.4503
+  scale: threshold=0.450, F1=0.2041
+  set: threshold=0.550, F1=0.5247
+  simple: threshold=0.550, F1=0.6781
+[stage1] Epoch  6: Train L=0.3995 Val L=0.3644 | Val Q=0.5420 A=0.5841 Final=11.2606
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.500, F1: 0.5230
+  abstract: threshold=0.550, F1=0.6575
+  artifacts: threshold=0.450, F1=0.2850
+  intersection: threshold=0.400, F1=0.0885
+  lowpoly: threshold=0.550, F1=0.4261
+  noisy: threshold=0.450, F1=0.7704
+  open: threshold=0.450, F1=0.2505
+  partial: threshold=0.600, F1=0.4361
+  scale: threshold=0.450, F1=0.2667
+  set: threshold=0.500, F1=0.5232
+  simple: threshold=0.500, F1=0.6844
+[stage1] Epoch  7: Train L=0.3980 Val L=0.3581 | Val Q=0.5230 A=0.5933 Final=11.1635
+  Optimal quality threshold: 0.550, F1: 0.5540
+  abstract: threshold=0.550, F1=0.6570
+  artifacts: threshold=0.450, F1=0.2738
+  intersection: threshold=0.350, F1=0.0671
+  lowpoly: threshold=0.500, F1=0.4084
+  noisy: threshold=0.450, F1=0.7715
+  open: threshold=0.450, F1=0.2601
+  partial: threshold=0.600, F1=0.4651
+  scale: threshold=0.500, F1=0.3030
+  set: threshold=0.500, F1=0.5000
+  simple: threshold=0.550, F1=0.6959
+[stage1] Epoch  8: Train L=0.3924 Val L=0.3588 | Val Q=0.5540 A=0.5931 Final=11.4710
+  ✓ New best saved -> best_model_fold3.pth
+✅ Unfrozen layer: 6
+✅ Unfrozen layer: 7
+✅ Unfrozen layer: 8
+Trainable params: 25,803,298 / 27,248,226 (94.70%)
+  Optimal quality threshold: 0.600, F1: 0.5996
+  abstract: threshold=0.550, F1=0.6824
+  artifacts: threshold=0.450, F1=0.2914
+  intersection: threshold=0.400, F1=0.0707
+  lowpoly: threshold=0.500, F1=0.4361
+  noisy: threshold=0.450, F1=0.8004
+  open: threshold=0.450, F1=0.2377
+  partial: threshold=0.600, F1=0.4961
+  scale: threshold=0.450, F1=0.2500
+  set: threshold=0.550, F1=0.5408
+  simple: threshold=0.550, F1=0.7021
+[stage2] Epoch  9: Train L=0.3719 | Val L=0.3415 | Val Q=0.5996 A=0.6131 Final=12.1270
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.6149
+  abstract: threshold=0.550, F1=0.7011
+  artifacts: threshold=0.450, F1=0.3146
+  intersection: threshold=0.400, F1=0.0682
+  lowpoly: threshold=0.550, F1=0.4559
+  noisy: threshold=0.450, F1=0.8042
+  open: threshold=0.450, F1=0.2511
+  partial: threshold=0.550, F1=0.5000
+  scale: threshold=0.500, F1=0.2222
+  set: threshold=0.550, F1=0.5651
+  simple: threshold=0.550, F1=0.7023
+[stage2] Epoch 10: Train L=0.3488 | Val L=0.3329 | Val Q=0.6149 A=0.6229 Final=12.3776
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.550, F1: 0.6045
+  abstract: threshold=0.550, F1=0.7250
+  artifacts: threshold=0.450, F1=0.2749
+  intersection: threshold=0.400, F1=0.0680
+  lowpoly: threshold=0.550, F1=0.4887
+  noisy: threshold=0.400, F1=0.8112
+  open: threshold=0.450, F1=0.2687
+  partial: threshold=0.600, F1=0.5035
+  scale: threshold=0.450, F1=0.2308
+  set: threshold=0.550, F1=0.5731
+  simple: threshold=0.550, F1=0.7079
+[stage2] Epoch 11: Train L=0.3329 | Val L=0.3307 | Val Q=0.6045 A=0.6329 Final=12.3738
+  Optimal quality threshold: 0.600, F1: 0.6359
+  abstract: threshold=0.550, F1=0.7269
+  artifacts: threshold=0.500, F1=0.2947
+  intersection: threshold=0.400, F1=0.0764
+  lowpoly: threshold=0.600, F1=0.4854
+  noisy: threshold=0.400, F1=0.8156
+  open: threshold=0.450, F1=0.2562
+  partial: threshold=0.600, F1=0.4889
+  scale: threshold=0.400, F1=0.1978
+  set: threshold=0.550, F1=0.5680
+  simple: threshold=0.550, F1=0.7074
+[stage2] Epoch 12: Train L=0.3214 | Val L=0.3208 | Val Q=0.6359 A=0.6328 Final=12.6868
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.650, F1: 0.6394
+  abstract: threshold=0.550, F1=0.7318
+  artifacts: threshold=0.450, F1=0.2939
+  intersection: threshold=0.350, F1=0.0710
+  lowpoly: threshold=0.550, F1=0.5053
+  noisy: threshold=0.400, F1=0.8150
+  open: threshold=0.450, F1=0.2744
+  partial: threshold=0.600, F1=0.5217
+  scale: threshold=0.450, F1=0.2182
+  set: threshold=0.500, F1=0.5788
+  simple: threshold=0.550, F1=0.7049
+[stage2] Epoch 13: Train L=0.3123 | Val L=0.3316 | Val Q=0.6394 A=0.6385 Final=12.7794
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.6491
+  abstract: threshold=0.500, F1=0.7433
+  artifacts: threshold=0.450, F1=0.2990
+  intersection: threshold=0.350, F1=0.0800
+  lowpoly: threshold=0.550, F1=0.5012
+  noisy: threshold=0.450, F1=0.8144
+  open: threshold=0.450, F1=0.2771
+  partial: threshold=0.600, F1=0.5217
+  scale: threshold=0.450, F1=0.2041
+  set: threshold=0.550, F1=0.6099
+  simple: threshold=0.550, F1=0.7076
+[stage2] Epoch 14: Train L=0.3043 | Val L=0.3156 | Val Q=0.6491 A=0.6432 Final=12.9232
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.6601
+  abstract: threshold=0.500, F1=0.7556
+  artifacts: threshold=0.450, F1=0.2764
+  intersection: threshold=0.350, F1=0.0816
+  lowpoly: threshold=0.550, F1=0.5131
+  noisy: threshold=0.400, F1=0.8191
+  open: threshold=0.450, F1=0.2750
+  partial: threshold=0.650, F1=0.5625
+  scale: threshold=0.400, F1=0.1895
+  set: threshold=0.600, F1=0.5993
+  simple: threshold=0.550, F1=0.7074
+[stage2] Epoch 15: Train L=0.3021 | Val L=0.3125 | Val Q=0.6601 A=0.6466 Final=13.0677
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.650, F1: 0.6642
+  abstract: threshold=0.600, F1=0.7559
+  artifacts: threshold=0.450, F1=0.3082
+  intersection: threshold=0.400, F1=0.1007
+  lowpoly: threshold=0.550, F1=0.5165
+  noisy: threshold=0.400, F1=0.8168
+  open: threshold=0.450, F1=0.2742
+  partial: threshold=0.650, F1=0.5210
+  scale: threshold=0.450, F1=0.2264
+  set: threshold=0.550, F1=0.6057
+  simple: threshold=0.550, F1=0.7246
+[stage2] Epoch 16: Train L=0.2919 | Val L=0.3152 | Val Q=0.6642 A=0.6512 Final=13.1548
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.6711
+  abstract: threshold=0.500, F1=0.7549
+  artifacts: threshold=0.450, F1=0.2986
+  intersection: threshold=0.400, F1=0.0859
+  lowpoly: threshold=0.550, F1=0.5220
+  noisy: threshold=0.450, F1=0.8265
+  open: threshold=0.450, F1=0.2827
+  partial: threshold=0.600, F1=0.5170
+  scale: threshold=0.500, F1=0.2000
+  set: threshold=0.550, F1=0.6102
+  simple: threshold=0.550, F1=0.7295
+[stage2] Epoch 17: Train L=0.2864 | Val L=0.3048 | Val Q=0.6711 A=0.6554 Final=13.2646
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.600, F1: 0.6677
+  abstract: threshold=0.500, F1=0.7652
+  artifacts: threshold=0.500, F1=0.3102
+  intersection: threshold=0.450, F1=0.0952
+  lowpoly: threshold=0.550, F1=0.5360
+  noisy: threshold=0.400, F1=0.8234
+  open: threshold=0.450, F1=0.2775
+  partial: threshold=0.650, F1=0.5161
+  scale: threshold=0.550, F1=0.2400
+  set: threshold=0.550, F1=0.6253
+  simple: threshold=0.550, F1=0.7183
+[stage2] Epoch 18: Train L=0.2807 | Val L=0.3109 | Val Q=0.6677 A=0.6571 Final=13.2488
+  Optimal quality threshold: 0.650, F1: 0.6772
+  abstract: threshold=0.500, F1=0.7572
+  artifacts: threshold=0.500, F1=0.3153
+  intersection: threshold=0.350, F1=0.0779
+  lowpoly: threshold=0.550, F1=0.5261
+  noisy: threshold=0.400, F1=0.8245
+  open: threshold=0.450, F1=0.2754
+  partial: threshold=0.600, F1=0.5229
+  scale: threshold=0.450, F1=0.1786
+  set: threshold=0.500, F1=0.6132
+  simple: threshold=0.550, F1=0.7178
+[stage2] Epoch 19: Train L=0.2738 | Val L=0.3144 | Val Q=0.6772 A=0.6537 Final=13.3090
+  ✓ New best saved -> best_model_fold3.pth
+  Optimal quality threshold: 0.650, F1: 0.6763
+  abstract: threshold=0.450, F1=0.7636
+  artifacts: threshold=0.450, F1=0.2970
+  intersection: threshold=0.400, F1=0.0930
+  lowpoly: threshold=0.550, F1=0.5408
+  noisy: threshold=0.400, F1=0.8288
+  open: threshold=0.500, F1=0.2875
+  partial: threshold=0.650, F1=0.5167
+  scale: threshold=0.500, F1=0.1935
+  set: threshold=0.500, F1=0.6158
+  simple: threshold=0.550, F1=0.7203
+[stage2] Epoch 20: Train L=0.2720 | Val L=0.3111 | Val Q=0.6763 A=0.6580 Final=13.3423
+  ✓ New best saved -> best_model_fold3.pth
+
+======================================================================
+FOLD 5/5 | seed=1756 | train=7168 | val=1796
+======================================================================
+  Optimal quality threshold: 0.550, F1: 0.4706
+  abstract: threshold=0.550, F1=0.4678
+  artifacts: threshold=0.450, F1=0.2273
+  intersection: threshold=0.400, F1=0.0508
+  lowpoly: threshold=0.500, F1=0.3993
+  noisy: threshold=0.500, F1=0.7610
+  open: threshold=0.500, F1=0.1786
+  partial: threshold=0.500, F1=0.3473
+  scale: threshold=0.400, F1=0.0779
+  set: threshold=0.450, F1=0.3610
+  simple: threshold=0.500, F1=0.6237
+[stage1] Epoch  1: Train L=0.5749 Val L=0.4429 | Val Q=0.4706 A=0.5228 Final=9.9344
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.500, F1: 0.5061
+  abstract: threshold=0.550, F1=0.5571
+  artifacts: threshold=0.500, F1=0.2006
+  intersection: threshold=0.450, F1=0.1500
+  lowpoly: threshold=0.500, F1=0.4055
+  noisy: threshold=0.450, F1=0.7804
+  open: threshold=0.450, F1=0.2512
+  partial: threshold=0.550, F1=0.4640
+  scale: threshold=0.500, F1=0.1000
+  set: threshold=0.500, F1=0.4242
+  simple: threshold=0.600, F1=0.6709
+[stage1] Epoch  2: Train L=0.4731 Val L=0.4049 | Val Q=0.5061 A=0.5648 Final=10.7083
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.550, F1: 0.5132
+  abstract: threshold=0.600, F1=0.5679
+  artifacts: threshold=0.500, F1=0.2577
+  intersection: threshold=0.400, F1=0.1250
+  lowpoly: threshold=0.500, F1=0.4439
+  noisy: threshold=0.450, F1=0.7791
+  open: threshold=0.450, F1=0.2185
+  partial: threshold=0.550, F1=0.4933
+  scale: threshold=0.400, F1=0.1266
+  set: threshold=0.500, F1=0.4791
+  simple: threshold=0.550, F1=0.6760
+[stage1] Epoch  3: Train L=0.4469 Val L=0.3852 | Val Q=0.5132 A=0.5793 Final=10.9251
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.550, F1: 0.5395
+  abstract: threshold=0.550, F1=0.5702
+  artifacts: threshold=0.450, F1=0.2701
+  intersection: threshold=0.400, F1=0.1200
+  lowpoly: threshold=0.500, F1=0.4556
+  noisy: threshold=0.450, F1=0.7834
+  open: threshold=0.450, F1=0.2301
+  partial: threshold=0.550, F1=0.5513
+  scale: threshold=0.450, F1=0.1395
+  set: threshold=0.500, F1=0.4980
+  simple: threshold=0.550, F1=0.6749
+[stage1] Epoch  4: Train L=0.4264 Val L=0.3798 | Val Q=0.5395 A=0.5876 Final=11.2701
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.550, F1: 0.5312
+  abstract: threshold=0.550, F1=0.5902
+  artifacts: threshold=0.500, F1=0.2791
+  intersection: threshold=0.400, F1=0.1053
+  lowpoly: threshold=0.500, F1=0.4552
+  noisy: threshold=0.450, F1=0.7866
+  open: threshold=0.450, F1=0.2590
+  partial: threshold=0.550, F1=0.5195
+  scale: threshold=0.450, F1=0.1159
+  set: threshold=0.550, F1=0.5111
+  simple: threshold=0.550, F1=0.6909
+[stage1] Epoch  5: Train L=0.4115 Val L=0.3731 | Val Q=0.5312 A=0.5958 Final=11.2700
+  Optimal quality threshold: 0.550, F1: 0.5469
+  abstract: threshold=0.500, F1=0.5908
+  artifacts: threshold=0.500, F1=0.3057
+  intersection: threshold=0.400, F1=0.1053
+  lowpoly: threshold=0.500, F1=0.4507
+  noisy: threshold=0.400, F1=0.7856
+  open: threshold=0.500, F1=0.2510
+  partial: threshold=0.550, F1=0.5169
+  scale: threshold=0.450, F1=0.1633
+  set: threshold=0.550, F1=0.5196
+  simple: threshold=0.550, F1=0.6762
+[stage1] Epoch  6: Train L=0.4043 Val L=0.3732 | Val Q=0.5469 A=0.5942 Final=11.4109
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.550, F1: 0.5502
+  abstract: threshold=0.500, F1=0.5866
+  artifacts: threshold=0.500, F1=0.3130
+  intersection: threshold=0.400, F1=0.0792
+  lowpoly: threshold=0.500, F1=0.4500
+  noisy: threshold=0.400, F1=0.7886
+  open: threshold=0.450, F1=0.2455
+  partial: threshold=0.600, F1=0.4918
+  scale: threshold=0.400, F1=0.1489
+  set: threshold=0.500, F1=0.5298
+  simple: threshold=0.500, F1=0.6700
+[stage1] Epoch  7: Train L=0.3965 Val L=0.3669 | Val Q=0.5502 A=0.5929 Final=11.4307
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.600, F1: 0.5400
+  abstract: threshold=0.500, F1=0.6032
+  artifacts: threshold=0.450, F1=0.2933
+  intersection: threshold=0.400, F1=0.1404
+  lowpoly: threshold=0.550, F1=0.4890
+  noisy: threshold=0.400, F1=0.7944
+  open: threshold=0.500, F1=0.2643
+  partial: threshold=0.600, F1=0.5312
+  scale: threshold=0.450, F1=0.1786
+  set: threshold=0.550, F1=0.5260
+  simple: threshold=0.550, F1=0.6894
+[stage1] Epoch  8: Train L=0.3918 Val L=0.3639 | Val Q=0.5400 A=0.6075 Final=11.4752
+  ✓ New best saved -> best_model_fold4.pth
+✅ Unfrozen layer: 6
+✅ Unfrozen layer: 7
+✅ Unfrozen layer: 8
+Trainable params: 25,803,298 / 27,248,226 (94.70%)
+  Optimal quality threshold: 0.600, F1: 0.5849
+  abstract: threshold=0.550, F1=0.6421
+  artifacts: threshold=0.450, F1=0.3055
+  intersection: threshold=0.350, F1=0.0873
+  lowpoly: threshold=0.550, F1=0.5203
+  noisy: threshold=0.400, F1=0.8066
+  open: threshold=0.450, F1=0.2432
+  partial: threshold=0.600, F1=0.5455
+  scale: threshold=0.400, F1=0.1818
+  set: threshold=0.550, F1=0.5556
+  simple: threshold=0.500, F1=0.7011
+[stage2] Epoch  9: Train L=0.3723 | Val L=0.3449 | Val Q=0.5849 A=0.6242 Final=12.0913
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.600, F1: 0.6082
+  abstract: threshold=0.550, F1=0.6531
+  artifacts: threshold=0.500, F1=0.3182
+  intersection: threshold=0.350, F1=0.0919
+  lowpoly: threshold=0.550, F1=0.5400
+  noisy: threshold=0.400, F1=0.8201
+  open: threshold=0.450, F1=0.2723
+  partial: threshold=0.600, F1=0.5625
+  scale: threshold=0.400, F1=0.1556
+  set: threshold=0.550, F1=0.5605
+  simple: threshold=0.500, F1=0.7029
+[stage2] Epoch 10: Train L=0.3504 | Val L=0.3375 | Val Q=0.6082 A=0.6353 Final=12.4355
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.600, F1: 0.6231
+  abstract: threshold=0.550, F1=0.6718
+  artifacts: threshold=0.500, F1=0.3067
+  intersection: threshold=0.400, F1=0.1220
+  lowpoly: threshold=0.550, F1=0.5739
+  noisy: threshold=0.400, F1=0.8262
+  open: threshold=0.450, F1=0.2826
+  partial: threshold=0.600, F1=0.5556
+  scale: threshold=0.400, F1=0.1667
+  set: threshold=0.600, F1=0.5940
+  simple: threshold=0.500, F1=0.7140
+[stage2] Epoch 11: Train L=0.3320 | Val L=0.3325 | Val Q=0.6231 A=0.6496 Final=12.7264
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.600, F1: 0.6446
+  abstract: threshold=0.550, F1=0.6720
+  artifacts: threshold=0.500, F1=0.3133
+  intersection: threshold=0.400, F1=0.1099
+  lowpoly: threshold=0.550, F1=0.5708
+  noisy: threshold=0.400, F1=0.8288
+  open: threshold=0.500, F1=0.2804
+  partial: threshold=0.600, F1=0.5649
+  scale: threshold=0.400, F1=0.1553
+  set: threshold=0.600, F1=0.6032
+  simple: threshold=0.500, F1=0.7146
+[stage2] Epoch 12: Train L=0.3222 | Val L=0.3243 | Val Q=0.6446 A=0.6514 Final=12.9596
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.650, F1: 0.6475
+  abstract: threshold=0.600, F1=0.6957
+  artifacts: threshold=0.500, F1=0.3128
+  intersection: threshold=0.350, F1=0.0796
+  lowpoly: threshold=0.550, F1=0.5683
+  noisy: threshold=0.350, F1=0.8268
+  open: threshold=0.500, F1=0.2870
+  partial: threshold=0.550, F1=0.5621
+  scale: threshold=0.350, F1=0.1176
+  set: threshold=0.600, F1=0.6000
+  simple: threshold=0.500, F1=0.7099
+[stage2] Epoch 13: Train L=0.3125 | Val L=0.3253 | Val Q=0.6475 A=0.6514 Final=12.9896
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.600, F1: 0.6533
+  abstract: threshold=0.600, F1=0.7152
+  artifacts: threshold=0.500, F1=0.3187
+  intersection: threshold=0.400, F1=0.0860
+  lowpoly: threshold=0.550, F1=0.5875
+  noisy: threshold=0.400, F1=0.8259
+  open: threshold=0.500, F1=0.3085
+  partial: threshold=0.550, F1=0.5714
+  scale: threshold=0.350, F1=0.1222
+  set: threshold=0.550, F1=0.6033
+  simple: threshold=0.500, F1=0.7168
+[stage2] Epoch 14: Train L=0.3049 | Val L=0.3191 | Val Q=0.6533 A=0.6595 Final=13.1273
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.650, F1: 0.6619
+  abstract: threshold=0.550, F1=0.7086
+  artifacts: threshold=0.500, F1=0.3222
+  intersection: threshold=0.400, F1=0.1087
+  lowpoly: threshold=0.550, F1=0.5819
+  noisy: threshold=0.400, F1=0.8271
+  open: threshold=0.500, F1=0.2960
+  partial: threshold=0.550, F1=0.5786
+  scale: threshold=0.400, F1=0.1220
+  set: threshold=0.600, F1=0.6213
+  simple: threshold=0.500, F1=0.7273
+[stage2] Epoch 15: Train L=0.2978 | Val L=0.3303 | Val Q=0.6619 A=0.6625 Final=13.2435
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.650, F1: 0.6667
+  abstract: threshold=0.550, F1=0.7177
+  artifacts: threshold=0.450, F1=0.3300
+  intersection: threshold=0.400, F1=0.1026
+  lowpoly: threshold=0.500, F1=0.5853
+  noisy: threshold=0.400, F1=0.8278
+  open: threshold=0.500, F1=0.3229
+  partial: threshold=0.550, F1=0.5868
+  scale: threshold=0.400, F1=0.1010
+  set: threshold=0.550, F1=0.6205
+  simple: threshold=0.500, F1=0.7165
+[stage2] Epoch 16: Train L=0.2885 | Val L=0.3192 | Val Q=0.6667 A=0.6638 Final=13.3043
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.650, F1: 0.6552
+  abstract: threshold=0.550, F1=0.7280
+  artifacts: threshold=0.500, F1=0.3511
+  intersection: threshold=0.400, F1=0.1124
+  lowpoly: threshold=0.500, F1=0.5996
+  noisy: threshold=0.450, F1=0.8233
+  open: threshold=0.450, F1=0.3013
+  partial: threshold=0.650, F1=0.5738
+  scale: threshold=0.450, F1=0.1356
+  set: threshold=0.550, F1=0.6235
+  simple: threshold=0.550, F1=0.7217
+[stage2] Epoch 17: Train L=0.2837 | Val L=0.3138 | Val Q=0.6552 A=0.6666 Final=13.2175
+  Optimal quality threshold: 0.650, F1: 0.6530
+  abstract: threshold=0.550, F1=0.7284
+  artifacts: threshold=0.500, F1=0.3497
+  intersection: threshold=0.400, F1=0.1400
+  lowpoly: threshold=0.500, F1=0.6054
+  noisy: threshold=0.400, F1=0.8193
+  open: threshold=0.500, F1=0.3111
+  partial: threshold=0.650, F1=0.5827
+  scale: threshold=0.400, F1=0.1441
+  set: threshold=0.550, F1=0.6272
+  simple: threshold=0.550, F1=0.7211
+[stage2] Epoch 18: Train L=0.2746 | Val L=0.3158 | Val Q=0.6530 A=0.6677 Final=13.2069
+  Optimal quality threshold: 0.600, F1: 0.6642
+  abstract: threshold=0.550, F1=0.7368
+  artifacts: threshold=0.500, F1=0.3627
+  intersection: threshold=0.400, F1=0.1351
+  lowpoly: threshold=0.500, F1=0.6128
+  noisy: threshold=0.400, F1=0.8252
+  open: threshold=0.450, F1=0.2793
+  partial: threshold=0.650, F1=0.5938
+  scale: threshold=0.450, F1=0.1250
+  set: threshold=0.550, F1=0.6272
+  simple: threshold=0.500, F1=0.7290
+[stage2] Epoch 19: Train L=0.2717 | Val L=0.3043 | Val Q=0.6642 A=0.6719 Final=13.3615
+  ✓ New best saved -> best_model_fold4.pth
+  Optimal quality threshold: 0.650, F1: 0.6631
+  abstract: threshold=0.550, F1=0.7368
+  artifacts: threshold=0.500, F1=0.3608
+  intersection: threshold=0.400, F1=0.1013
+  lowpoly: threshold=0.500, F1=0.5976
+  noisy: threshold=0.450, F1=0.8205
+  open: threshold=0.450, F1=0.2918
+  partial: threshold=0.650, F1=0.5789
+  scale: threshold=0.450, F1=0.1379
+  set: threshold=0.600, F1=0.6141
+  simple: threshold=0.550, F1=0.7259
+[stage2] Epoch 20: Train L=0.2635 | Val L=0.3186 | Val Q=0.6631 A=0.6664 Final=13.2947
